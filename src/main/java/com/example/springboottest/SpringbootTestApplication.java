@@ -14,6 +14,6 @@ public class SpringbootTestApplication {
 	}
 
 	@GetMapping("/hello")
-	public String hello() {return "hello";}
+	public String hello() {return "hi";}
 
 }
