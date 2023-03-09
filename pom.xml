@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>springboot-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>springboot-test</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -69,6 +69,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-test</finalName>
 	</build>
 
 </project>
