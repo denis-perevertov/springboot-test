@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>springboot-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>springboot-test</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -25,6 +25,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
